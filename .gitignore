@@ -1,0 +1,30 @@
+#what .gitignore Does
+#It prevents certain files (like env/, .sqlite3, etc.) from being uploaded to GitHub.
+#It does not affect your project’s functionality at all.
+#It’s only used by Git, not by Python or Django.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Django
+*.sqlite3
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
