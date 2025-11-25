@@ -1,7 +1,8 @@
 # Secondshelf – Second-Hand Books Marketplace
 
-## 📘 Description
-Secondshelf is a Django-based e-commerce platform for buying and selling second-hand books. It allows users to:
+## 📘 Project Description
+Secondshelf is a Django-based e-commerce platform for buying and selling second-hand books.  
+It allows users to:
 
 - Browse and search books  
 - Add books to wishlist or cart  
@@ -10,27 +11,29 @@ Secondshelf is a Django-based e-commerce platform for buying and selling second-
 - Manage book listings (for sellers)  
 - Admin management of users, books, and categories  
 
-The platform aims to make books more affordable while providing an **easy-to-use marketplace** for students and readers.
+The platform aims to make books more affordable while providing a smooth marketplace for students and readers.
 
 ---
 
 ## ✨ Features
-- **User authentication & role-based access** (Buyer, Seller, Admin)  
-- **Book listing** with search and category filters  
-- **Wishlist & cart management**  
-- **Multi-seller checkout**  
-- **Buyer–seller chat system**  
-- **Seller dashboard** for managing books  
-- **Admin panel** for overseeing the platform  
+
+- *User authentication & role-based access* (Buyer, Seller, Admin)  
+- *Book listing* with search and category filters  
+- *Wishlist & cart management*  
+- *Multi-seller checkout*  
+- *Buyer–seller chat system*  
+- *Seller dashboard* for managing books  
+- *Admin panel* for full platform control  
 
 ---
 
 ## 🛠 Technologies Used
-- **Backend:** Django  
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
-- **Database:** SQLite / MySQL  
-- **Payment Integration:** Stripe (test mode)  
-- **Authentication:** Django Auth System  
+
+*Backend:* Django  
+*Frontend:* HTML, CSS, JavaScript, Bootstrap  
+*Database:* SQLite / MySQL  
+*Payment Integration:* Stripe (test mode)  
+*Authentication:* Django Auth System  
 
 ---
 
@@ -44,65 +47,45 @@ The platform aims to make books more affordable while providing an **easy-to-use
 
 ### Steps
 
-1. **Clone the repository**  
-bash
+#### 1. Clone the repository:
+```bash
 git clone https://github.com/ayeraaziz21/SecondShelfProj
-`
-
-2. **Navigate to the project directory**
-
-bash
+``` 
+#### 2. Navigate to the project directory:
+```bash
 cd SecondShelfProj
-
-
-3. **Create a virtual environment**
-
-bash
+```
+#### 3. Create the virtual environment:
+```bash
 python -m venv venv
-
-
-4. **Activate the virtual environment**
-
-bash
+```
+#### 4. Activate the virtual environment:
+```bash
 # Windows
 venv\Scripts\activate
-
 # Linux/macOS
 source venv/bin/activate
-
-
-5. **Install dependencies**
-
-bash
+```
+#### 5. Install dependencies:
+```bash
 pip install -r requirements.txt
-
-
-6. **Apply database migrations**
-
-bash
+```
+#### 6. Apply database migrations:
+```bash
 python manage.py migrate
-
-
-7. **Create a superuser for admin**
-
-bash
+```
+#### 7. Create a superuser for admin:
+```bash
 python manage.py createsuperuser
-
-
-8. **Run the server**
-
-bash
+```
+#### 8. Run the server:
+```bash
 python manage.py runserver
-
-
-9. **Open the website in a browser**
-
-
+```
+#### 9. Open the website in a browser:
+```bash
 http://127.0.0.1:8000
-
-
----
-
+```
 ## 🖥 Usage
 
 **Buyer:**
@@ -151,3 +134,5 @@ http://127.0.0.1:8000
 
 * Amna Amir (SE-23012)
 * Syeda Ayera Aziz (SE-23017)
+
+
